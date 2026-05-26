@@ -14,12 +14,12 @@ void checkResult(string name, double s1, double s2,  double s3) {
    string name;
    // loop for multiple students (Requirement 4)
    while (cout<< "Enter name (or 'exit'): " && cin >> name != "exit") double s1, s2, s3,
-    cout << "Enter 3 marks (or 'exit' to quit): ";
-    cin >> s1, >> s2, >> s3 // Accepts marks for 3 subjects (Requirement 1)
+    cout<< "Enter 3 marks (or 'exit' to quit): ";
+    cin >> s1, >> s2, >> s3, // Accepts marks for 3 subjets (Requirement 1)
     chcekResult (name, s1, s2, s3);
    	
-   }
-   return 0;
+   
+   return 0; 
    
 }
    
